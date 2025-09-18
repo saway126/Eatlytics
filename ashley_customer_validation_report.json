@@ -1,0 +1,814 @@
+{
+  "report_date": "2025-09-18 11:23:04",
+  "revisit_analysis": {
+    "total_customers": 170,
+    "repeat_customers": 170,
+    "revisit_rate": 100.0,
+    "visit_frequency": {
+      "6": 168,
+      "12": 2
+    },
+    "period_days": 30
+  },
+  "ingredient_consumption": {
+    "consumption_data": [
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      },
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      },
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      },
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      },
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      },
+      {
+        "ingredient": "소고기",
+        "initial_quantity": 100.0,
+        "current_quantity": 64.81396106222245,
+        "consumed_quantity": 35.18603893777755,
+        "consumption_rate": 35.18603893777755,
+        "remaining_rate": 64.81396106222245,
+        "unit": "kg",
+        "waste_cost": 97220.94159333369
+      },
+      {
+        "ingredient": "치킨",
+        "initial_quantity": 80.0,
+        "current_quantity": 20.89369094742611,
+        "consumed_quantity": 59.10630905257389,
+        "consumption_rate": 73.88288631571737,
+        "remaining_rate": 26.117113684282632,
+        "unit": "kg",
+        "waste_cost": 16714.95275794089
+      },
+      {
+        "ingredient": "파스타면",
+        "initial_quantity": 50.0,
+        "current_quantity": 16.276734223890067,
+        "consumed_quantity": 33.72326577610993,
+        "consumption_rate": 67.44653155221987,
+        "remaining_rate": 32.55346844778013,
+        "unit": "kg",
+        "waste_cost": 4883.02026716702
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "빵",
+        "initial_quantity": 40.0,
+        "current_quantity": 9.501201847267339,
+        "consumed_quantity": 30.49879815273266,
+        "consumption_rate": 76.24699538183165,
+        "remaining_rate": 23.753004618168347,
+        "unit": "개",
+        "waste_cost": 1900.240369453468
+      },
+      {
+        "ingredient": "야채",
+        "initial_quantity": 35.0,
+        "current_quantity": 20.5901642189084,
+        "consumed_quantity": 14.409835781091601,
+        "consumption_rate": 41.17095937454744,
+        "remaining_rate": 58.82904062545256,
+        "unit": "kg",
+        "waste_cost": 10295.082109454199
+      },
+      {
+        "ingredient": "소스",
+        "initial_quantity": 20.0,
+        "current_quantity": 5.995906867669683,
+        "consumed_quantity": 14.004093132330317,
+        "consumption_rate": 70.02046566165158,
+        "remaining_rate": 29.97953433834842,
+        "unit": "L",
+        "waste_cost": 4796.725494135747
+      }
+    ],
+    "low_consumption_ingredients": [],
+    "high_consumption_ingredients": [
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      },
+      {
+        "ingredient": "토마토",
+        "initial_quantity": 30.0,
+        "current_quantity": 5.295376704569183,
+        "consumed_quantity": 24.704623295430817,
+        "consumption_rate": 82.34874431810273,
+        "remaining_rate": 17.651255681897275,
+        "unit": "kg",
+        "waste_cost": 2118.150681827673
+      },
+      {
+        "ingredient": "치즈",
+        "initial_quantity": 25.0,
+        "current_quantity": 3.624485897019445,
+        "consumed_quantity": 21.375514102980556,
+        "consumption_rate": 85.50205641192223,
+        "remaining_rate": 14.49794358807778,
+        "unit": "kg",
+        "waste_cost": 4349.3830764233335
+      }
+    ],
+    "total_waste_cost": 853670.978098416,
+    "average_consumption_rate": 66.47558474422131
+  },
+  "ai_dish_analysis": {
+    "total_dishes_analyzed": 20,
+    "average_waste_percentage": 16.47639182297847,
+    "average_satisfaction": 4.176180408851076,
+    "dish_statistics": {
+      "스테이크": {
+        "avg_waste": 17.968630708742698,
+        "avg_satisfaction": 4.101568464562865,
+        "count": 4
+      },
+      "파스타": {
+        "avg_waste": 16.712058203308636,
+        "avg_satisfaction": 4.164397089834568,
+        "count": 7
+      },
+      "피자": {
+        "avg_waste": 16.1827661082228,
+        "avg_satisfaction": 4.19086169458886,
+        "count": 5
+      },
+      "샐러드": {
+        "avg_waste": 14.938768915081049,
+        "avg_satisfaction": 4.253061554245948,
+        "count": 4
+      }
+    },
+    "analysis_results": [
+      {
+        "dish_name": "피자",
+        "waste_percentage": 10.598124086688404,
+        "satisfaction_score": 4.47009379566558,
+        "customer_id": "CUST_6191",
+        "table_number": 7,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 19.123464579603258,
+        "satisfaction_score": 4.0438267710198375,
+        "customer_id": "CUST_1466",
+        "table_number": 11,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "피자",
+        "waste_percentage": 17.232330337601102,
+        "satisfaction_score": 4.138383483119945,
+        "customer_id": "CUST_9322",
+        "table_number": 2,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "샐러드",
+        "waste_percentage": 23.084122278452213,
+        "satisfaction_score": 3.8457938860773893,
+        "customer_id": "CUST_7949",
+        "table_number": 2,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "샐러드",
+        "waste_percentage": 15.177774612895863,
+        "satisfaction_score": 4.241111269355207,
+        "customer_id": "CUST_3558",
+        "table_number": 10,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "샐러드",
+        "waste_percentage": 11.577656691173237,
+        "satisfaction_score": 4.421117165441338,
+        "customer_id": "CUST_3747",
+        "table_number": 16,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "피자",
+        "waste_percentage": 26.72519015137243,
+        "satisfaction_score": 3.6637404924313786,
+        "customer_id": "CUST_5658",
+        "table_number": 12,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "피자",
+        "waste_percentage": 13.193789596107715,
+        "satisfaction_score": 4.340310520194614,
+        "customer_id": "CUST_2267",
+        "table_number": 3,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "스테이크",
+        "waste_percentage": 5.792051380621578,
+        "satisfaction_score": 4.710397430968921,
+        "customer_id": "CUST_6393",
+        "table_number": 4,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "스테이크",
+        "waste_percentage": 18.005584146765376,
+        "satisfaction_score": 4.099720792661731,
+        "customer_id": "CUST_9433",
+        "table_number": 9,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 17.328272010097457,
+        "satisfaction_score": 4.133586399495127,
+        "customer_id": "CUST_6486",
+        "table_number": 7,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "샐러드",
+        "waste_percentage": 9.915522077802885,
+        "satisfaction_score": 4.504223896109856,
+        "customer_id": "CUST_1775",
+        "table_number": 15,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "피자",
+        "waste_percentage": 13.164396369344347,
+        "satisfaction_score": 4.341780181532783,
+        "customer_id": "CUST_4943",
+        "table_number": 4,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 18.114791306048986,
+        "satisfaction_score": 4.094260434697551,
+        "customer_id": "CUST_2021",
+        "table_number": 6,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 4.374511608812556,
+        "satisfaction_score": 4.781274419559372,
+        "customer_id": "CUST_7873",
+        "table_number": 12,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 16.574889886952988,
+        "satisfaction_score": 4.171255505652351,
+        "customer_id": "CUST_5297",
+        "table_number": 4,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 7.742507358820844,
+        "satisfaction_score": 4.612874632058958,
+        "customer_id": "CUST_8629",
+        "table_number": 8,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "스테이크",
+        "waste_percentage": 24.50900581144489,
+        "satisfaction_score": 3.7745497094277556,
+        "customer_id": "CUST_7863",
+        "table_number": 13,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "파스타",
+        "waste_percentage": 33.725970672824374,
+        "satisfaction_score": 3.3137014663587814,
+        "customer_id": "CUST_5859",
+        "table_number": 13,
+        "analysis_date": "2025-09-18 11:23:04"
+      },
+      {
+        "dish_name": "스테이크",
+        "waste_percentage": 23.567881496138952,
+        "satisfaction_score": 3.8216059251930523,
+        "customer_id": "CUST_6276",
+        "table_number": 15,
+        "analysis_date": "2025-09-18 11:23:04"
+      }
+    ]
+  },
+  "recommendations": [
+    "폐기 비용이 높습니다. 재고 관리 시스템 개선이 필요합니다."
+  ]
+}
