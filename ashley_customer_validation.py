@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-애슐리 고객검증 시스템
-Ashley Customer Validation System
+애슐리 고객검증 시스템 (리팩토링 버전)
+Ashley Customer Validation System (Refactored)
 
 주요 기능:
 1. 재방문율 추적 및 분석
@@ -13,112 +13,56 @@ Author: AI Assistant
 Date: 2024
 """
 
-import pandas as pd
-import numpy as np
-import sqlite3
-from datetime import datetime, timedelta
 import json
-import os
-from typing import Dict, List, Tuple, Optional
 import matplotlib.pyplot as plt
-import seaborn as sns
-from PIL import Image
-import cv2
-import warnings
-warnings.filterwarnings('ignore')
-
-# 한글 폰트 설정
-import matplotlib.font_manager as fm
-import os
-
-# Windows 한글 폰트 경로 설정
-font_paths = [
-    'C:/Windows/Fonts/malgun.ttf',
-    'C:/Windows/Fonts/gulim.ttc', 
-    'C:/Windows/Fonts/dotum.ttc',
-    'C:/Windows/Fonts/batang.ttc'
-]
-
-# 사용 가능한 한글 폰트 찾기
-korean_font = None
-for font_path in font_paths:
-    if os.path.exists(font_path):
-        try:
-            font_prop = fm.FontProperties(fname=font_path)
-            korean_font = font_prop.get_name()
-            print(f"한글 폰트 발견: {korean_font}")
-            break
-        except:
-            continue
-
-if korean_font:
-    plt.rcParams['font.family'] = korean_font
-else:
-    # 폰트를 찾지 못한 경우 기본 설정
-    plt.rcParams['font.family'] = ['Malgun Gothic', 'Gulim', 'Dotum', 'Batang', 'DejaVu Sans']
-    print("한글 폰트를 찾을 수 없습니다. 기본 폰트를 사용합니다.")
-
-plt.rcParams['axes.unicode_minus'] = False
+from typing import Dict, List, Any
+from config import Config
+from utils import setup_logging, setup_korean_font, format_currency, format_percentage
+from database_manager import DatabaseManager
+from data_generator import DataGenerator
+from analyzers import RevisitAnalyzer, IngredientAnalyzer, DishAnalyzer, TrendAnalyzer
 
 class AshleyCustomerValidation:
-    """애슐리 고객검증 시스템 클래스"""
+    """애슐리 고객검증 시스템 클래스 (리팩토링 버전)"""
     
-    def __init__(self, db_path: str = "ashley_customer_validation.db"):
-        self.db_path = db_path
-        self.conn = None
-        self.setup_database()
+    def __init__(self, db_path: str = None):
+        self.db_path = db_path or Config.get_database_path()
+        self.logger = setup_logging()
         
-    def setup_database(self):
-        """데이터베이스 초기화"""
-        self.conn = sqlite3.connect(self.db_path)
-        cursor = self.conn.cursor()
+        # 컴포넌트 초기화
+        self.db_manager = DatabaseManager(self.db_path)
+        self.data_generator = DataGenerator()
         
-        # 고객 방문 기록 테이블
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS customer_visits (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                customer_id TEXT NOT NULL,
-                visit_date DATE NOT NULL,
-                table_number INTEGER,
-                order_items TEXT,
-                total_amount REAL,
-                satisfaction_score REAL,
-                visit_duration INTEGER,
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
+        # 분석기 초기화
+        self.revisit_analyzer = RevisitAnalyzer(self.db_manager)
+        self.ingredient_analyzer = IngredientAnalyzer(self.db_manager)
+        self.dish_analyzer = DishAnalyzer(self.db_manager)
+        self.trend_analyzer = TrendAnalyzer(self.db_manager)
         
-        # 재료 재고 테이블
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS ingredient_inventory (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                ingredient_name TEXT NOT NULL,
-                initial_quantity REAL,
-                current_quantity REAL,
-                unit TEXT,
-                expiration_date DATE,
-                cost_per_unit REAL,
-                last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
+        # 한글 폰트 설정
+        setup_korean_font()
         
-        # 접시 사진 분석 결과 테이블
-        cursor.execute('''
-            CREATE TABLE IF NOT EXISTS dish_analysis (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                customer_id TEXT,
-                table_number INTEGER,
-                dish_name TEXT,
-                image_path TEXT,
-                analysis_result TEXT,
-                waste_percentage REAL,
-                satisfaction_score REAL,
-                analysis_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )
-        ''')
+    def generate_sample_data(self):
+        """샘플 데이터 생성"""
+        self.logger.info("📊 애슐리 샘플 데이터 생성 중...")
         
-        self.conn.commit()
-        print("✅ 데이터베이스 초기화 완료!")
+        try:
+            # 기존 데이터 삭제
+            self.db_manager.clear_all_data()
+            
+            # 새 데이터 생성
+            sample_data = self.data_generator.generate_all_sample_data()
+            
+            # 데이터베이스에 저장
+            self.db_manager.insert_customer_visits(sample_data['customer_visits'])
+            self.db_manager.insert_ingredient_inventory(sample_data['ingredient_inventory'])
+            self.db_manager.insert_dish_analysis(sample_data['dish_analysis'])
+            
+            self.logger.info("✅ 샘플 데이터 생성 완료!")
+            
+        except Exception as e:
+            self.logger.error(f"샘플 데이터 생성 오류: {e}")
+            raise
         
     def generate_sample_data(self):
         """샘플 데이터 생성"""

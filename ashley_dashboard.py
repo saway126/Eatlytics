@@ -23,13 +23,14 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import json
-from ashley_customer_validation import AshleyCustomerValidation
+from ashley_customer_validation_refactored import AshleyCustomerValidation
 
 # Plotly 한글 폰트 설정
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
-# 한글 폰트 설정을 위한 전역 변수
+# 설정에서 한글 폰트 가져오기
+from config import Config
 KOREAN_FONT = "Malgun Gothic, AppleGothic, Gulim, Dotum, sans-serif"
 
 class AshleyDashboard:
